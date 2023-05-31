@@ -7,9 +7,9 @@ public class PrintConsecutiveNumbers {
             }else if( i %2==0 && i %3==0 ) {    //numbers divisible by both 2 and 3
                 System.out.println("CodilityTest");
             }else if( i %3==0 && i %5==0) {    //numbers divisible by both 3 and 5
-                System.out.println("CodilityCoders");
-            }else if ( i %2==0 && i %5==0 ) {    //numbers divisible by both 2 and 5
                 System.out.println("TestCoders");
+            }else if ( i %2==0 && i %5==0 ) {    //numbers divisible by both 2 and 5
+                System.out.println("CodilityCoders");
             }else if( i % 2 == 0 ) {      //numbers divisible by 2
                 System.out.println("Codility");
             }else if( i % 3 == 0 ) {     //numbers divisible by 3
